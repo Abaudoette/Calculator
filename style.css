@@ -1,0 +1,139 @@
+/* ....DEFAULT.... */
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+.container {
+  display: block;
+  width: 30%;
+  margin: auto;
+  /* border: 2px solid black; */
+  border-radius: 7px;
+  padding: 2% 5% 7% 5%;
+  margin-top: 8%;
+  background-color: rgb(4, 61, 61);
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+div.calculatorField {
+  align-items: center;
+  margin-left: 6%;
+}
+
+div.topText {
+  color: #fff;
+}
+
+div.topText h1 {
+  font-size: 38px;
+  font-weight: 600;
+}
+
+div.topText p {
+  font-size: 20px;
+  margin-left: 25%;
+  font-weight: 400;
+  margin-bottom: 10%;
+}
+
+.formField {
+  margin-left: 20%;
+}
+
+input[type="text"] {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.formField p i {
+  margin-left: 15%;
+  color: #fff;
+}
+
+input[type="submit"] {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  margin-left: 18%;
+}
+
+.resultField {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* .....Media Queries..... */
+@media screen and (max-width: 680px) {
+   .container { 
+    width: 80%;
+  }
+
+  .topText h1 {
+    margin-left: 10%;
+  }
+
+  div.topText p {
+    margin-left: 15%;
+  }
+
+  .formField, .resultField {
+    margin-left: 10%;
+  }
+
+  .formField p i {
+    margin-left: 18%;
+  }
+
+  input[type="submit"] {
+    margin-left: 25%;
+  }
+}
